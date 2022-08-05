@@ -24,7 +24,7 @@ class UserTest extends \PHPUnit\Framework\TestCase
     /** @test */
     public function we_can_get_the_last_name()
     {
-        $this->assertEquals('McGeough', $this->user->lastName);
+        $this->assertEquals('Mc Geough', $this->user->lastName);
     }
 
     /** @test */
