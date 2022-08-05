@@ -18,7 +18,7 @@ class UserTest extends \PHPUnit\Framework\TestCase
     /** @test */
     public function we_can_get_the_first_name()
     {
-        $this->assertEquals('Pierce', $this->user->firstName);
+        $this->assertEquals('break', $this->user->firstName);
     }
 
     /** @test */
